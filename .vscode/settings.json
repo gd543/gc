@@ -1,0 +1,13 @@
+{
+    "fileheader.Author": "SEU_3SE",
+    "fileheader.LastModifiedBy": "Wang XXXj",
+    "files.associations": {
+        "cmsis_os.h": "c",
+        "freertos.h": "c",
+        "main.h": "c",
+        "remote_control.h": "c",
+        "sysconfig.h": "c",
+        "stdlib.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
