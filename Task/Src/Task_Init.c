@@ -19,6 +19,18 @@
   * @retval BSP初始化状态
   */
 static bool BSP_Init();
+/**
+ * @brief  初始化外设
+ * @note
+ * @retval None
+ */
+static void Init_Peripherals(void);
+/**
+ * @brief  创建任务
+ * @note   需要依赖创建任务的头文件，将创建任务的句柄赋值
+ * @retval None
+ */
+static void Create_Tasks(void);
 
 /* ---------------------------- global functions ---------------------------- */
 
@@ -31,14 +43,23 @@ static bool BSP_Init();
 void Task_Init(void *parameters)
 {
     taskENTER_CRITICAL(); // 初始化过程中禁止其他任务进行
-    
+    Init_Peripherals();
+	  Create_Tasks();
     vTaskDelete(NULL);
     taskEXIT_CRITICAL();
 }
 
 /* ----------------------- Static Function Definitions ---------------------- */
 
-bool BSP_Init();
+bool BSP_Init()
 {
   
+}
+void Init_Peripherals(void)
+{
+	
+}
+void Create_Tasks(void)
+{
+	CreateTask_CAN();
 }

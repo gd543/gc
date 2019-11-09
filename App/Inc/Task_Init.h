@@ -20,4 +20,5 @@
 
 /* ---------------------------- Global Functions ---------------------------- */
 void Task_Init(void* parameters);
+void CreateTask_CAN(void);
 #endif
