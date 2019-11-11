@@ -21,5 +21,12 @@
 /* ------------------------- Global variables extern ------------------------ */
 
 /* ---------------------------- Global Functions ---------------------------- */
+
+/**
+ * @brief  Create all task
+ * @note   
+ * @param  parameters: none
+ * @retval None
+ */
 void Task_Init(void* parameters);
 #endif

@@ -37,12 +37,16 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-//布尔变量(要手动定义？)
+
+	//布尔变量(要手动定义？)
+#ifndef bool
 typedef enum
 {
   FALSE = 0,
   TRUE,
 }bool;
+#endif
+
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
