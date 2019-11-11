@@ -57,7 +57,8 @@ bool BSP_Init()
 }
 void Init_Peripherals(void)
 {
-	
+	InitPeripheral_CAN();
+	InitPeripheral_CAN_Motors();
 }
 void Create_Tasks(void)
 {

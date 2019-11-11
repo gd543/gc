@@ -1,8 +1,8 @@
 engineer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-engineer\heap_4.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stdlib.h
+engineer\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 engineer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-engineer\heap_4.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stddef.h
-engineer\heap_4.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stdint.h
+engineer\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+engineer\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 engineer\heap_4.o: ../Inc/FreeRTOSConfig.h
 engineer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 engineer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

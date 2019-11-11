@@ -1,8 +1,8 @@
 engineer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-engineer\event_groups.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stdlib.h
+engineer\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 engineer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-engineer\event_groups.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stddef.h
-engineer\event_groups.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stdint.h
+engineer\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+engineer\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 engineer\event_groups.o: ../Inc/FreeRTOSConfig.h
 engineer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 engineer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

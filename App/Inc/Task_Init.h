@@ -8,6 +8,8 @@
 #define __TASK_INIT_H_
 /* -------------------------------- Includes -------------------------------- */
 #include "sysconfig.h"
+#include "can_motor.h"
+#include "can_module.h"
 /* ---------------------------- Defined constants --------------------------- */
 
 /* ----------------------------- Macro functions ---------------------------- */
@@ -20,5 +22,4 @@
 
 /* ---------------------------- Global Functions ---------------------------- */
 void Task_Init(void* parameters);
-void CreateTask_CAN(void);
 #endif

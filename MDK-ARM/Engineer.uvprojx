@@ -626,9 +626,14 @@
               <FilePath>..\App\Src\remote_control.c</FilePath>
             </File>
             <File>
-              <FileName>can_use.c</FileName>
+              <FileName>can_module.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\App\Src\can_use.c</FilePath>
+              <FilePath>..\App\Src\can_module.c</FilePath>
+            </File>
+            <File>
+              <FileName>can_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\Src\can_motor.c</FilePath>
             </File>
           </Files>
         </Group>
