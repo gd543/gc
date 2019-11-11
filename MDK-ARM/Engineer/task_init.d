@@ -55,3 +55,5 @@ engineer\task_init.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.
 engineer\task_init.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 engineer\task_init.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 engineer\task_init.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+engineer\task_init.o: ..\App\Inc\can_motor.h
+engineer\task_init.o: ..\App\Inc\can_module.h

@@ -18,16 +18,16 @@ static __packed struct
 
     int32_t framecounter; //用于计数包数
 
-    struct
+	  __packed struct//（我加了一个__packed，不然会报错）
     {
-        struct
+        __packed struct
         {
             /* data */
             uint8_t sw[2];
             uint16_t ch[4];
         }rc;
 
-        struct
+        __packed struct
         {
             /* data */
             int16_t x;         
@@ -38,7 +38,7 @@ static __packed struct
 
         }mouse;
 
-        struct
+        __packed struct
         {
             /* data */
             uint16_t key_bit;
