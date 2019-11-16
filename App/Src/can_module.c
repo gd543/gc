@@ -110,7 +110,7 @@ bool CreateTask_CAN(void)
 /* ----------------------- Static Function Definitions ---------------------- */
 
 /**
- * @brief  初始化CAN的参数配置
+ * @brief  初始化CAN的参数配置，并开始CAN通信
  * @note(这些参数全是抄来的，我还不会配)
  * @param  hcan: 将要初始化的CAN句柄
  * @retval None
