@@ -1,8 +1,8 @@
 engineer\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-engineer\list.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stdlib.h
+engineer\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 engineer\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-engineer\list.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stddef.h
-engineer\list.o: F:\stm32\kei5\ARM\ARMCC\Bin\..\include\stdint.h
+engineer\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+engineer\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 engineer\list.o: ../Inc/FreeRTOSConfig.h
 engineer\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 engineer\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

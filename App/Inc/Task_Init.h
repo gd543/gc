@@ -8,6 +8,8 @@
 #define __TASK_INIT_H_
 /* -------------------------------- Includes -------------------------------- */
 #include "sysconfig.h"
+#include "can_motor.h"
+#include "can_module.h"
 /* ---------------------------- Defined constants --------------------------- */
 
 /* ----------------------------- Macro functions ---------------------------- */
@@ -19,5 +21,12 @@
 /* ------------------------- Global variables extern ------------------------ */
 
 /* ---------------------------- Global Functions ---------------------------- */
+
+/**
+ * @brief  Create all task
+ * @note   
+ * @param  parameters: none
+ * @retval None
+ */
 void Task_Init(void* parameters);
 #endif

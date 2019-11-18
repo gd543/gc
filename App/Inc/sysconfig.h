@@ -40,6 +40,11 @@
 #error Please select your current mode(Debug or Release)
 #endif
 
+#ifdef SYSTEM_DEBUG_MODE // 因为Keil不支持监视静态全局变量,所以权且使用此法(还不是很确定其用途，先写在这先)
+#define _STATIC
+#else
+#define _STATIC static
+#endif
 /************* Uart buffer ***************/
 //串口缓存区
 #define MEMORY0 0

@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp
 "engineer\startup_stm32f427xx.o"
+"engineer\task_init.o"
 "engineer\main.o"
 "engineer\gpio.o"
 "engineer\can.o"
@@ -40,6 +41,9 @@
 "engineer\cmsis_os.o"
 "engineer\heap_4.o"
 "engineer\port.o"
+"engineer\remote_control.o"
+"engineer\can_module.o"
+"engineer\can_motor.o"
 --library_type=microlib --strict --scatter "Engineer\Engineer.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
