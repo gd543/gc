@@ -20,6 +20,10 @@
 //#define CAN2_RXFRAME_COUNT   (9) //CAN2接收帧数量上限
 #endif
 
+#define CAN_ERROR_ID         ((can_id_t)-1)//定义CAN的错误ID为uint8的最大值（？）
+
+#define INVALID_INDEX (-1)//定义无效偏移量的值
+
 /* ----------------------------- Macro functions ---------------------------- */
 
 /* ------------------------------- Enum types ------------------------------- */
@@ -52,3 +56,39 @@ bool InitPeripheral_CAN(void);
  * @retval 是否成功
  */
 bool CreateTask_CAN(void);
+
+/**
+ * @brief  注册一个发送帧
+ * @note
+ * @param  hcan: can句柄
+ * @param  std_id: 0x200,0x1FF
+ * @param  callback: 发送回调函数
+ * @retval 是否成功
+ */
+bool CAN_TxRegister(CAN_HandleTypeDef* hcan, std_id_t std_id, CAN_TxCallback_t callback);
+
+/**
+ * @brief  得到CAN编号,从0开始
+ * @note   目前只支持CAN1和CAN2
+ * @param  hcan: CAN句柄
+ * @retval 编号,如果都不是返回uint8的最大值
+ */
+can_id_t CAN_GetID(CAN_HandleTypeDef* hcan);
+
+///**
+// * @brief  CAN1接收消息队列回调函数
+// * @note   CAN中断回调函数
+// * @param  *hcan:
+// * @retval None
+// */
+//void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan);
+
+//#if CAN_COUNT == 2
+///**
+// * @brief  CAN2接收消息队列回调函数
+// * @note   CAN中断回调函数
+// * @param  *hcan:
+// * @retval None
+// */
+//void HAL_CAN_RxFifo1MsgPendingCallback(CAN_HandleTypeDef *hcan);
+//#endif

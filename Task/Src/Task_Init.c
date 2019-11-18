@@ -69,7 +69,7 @@ bool BSP_Init()
 void Init_Peripherals(void)
 {
 	InitPeripheral_CAN();
-	//	InitPeripheral_CAN_Motors();  （暂且不用）
+	InitPeripheral_CAN_Motors();
 }
 
 /**
