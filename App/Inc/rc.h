@@ -64,7 +64,7 @@
 #define KEY_C         ((uint8_t)13)
 #define KEY_V         ((uint8_t)14)
 #define KEY_B         ((uint8_t)15)
-//#define         ((uint8_t)0)  （这里会报错，暂且注释掉）
+#define KEY_OFFSET        ((uint8_t)0)
 /* ----------------------- PC Mouse Definition-------------------------------- */
 #define MOUSE_X                 ((uint8_t)0)
 #define MOUSE_Y                 ((uint8_t)1)
